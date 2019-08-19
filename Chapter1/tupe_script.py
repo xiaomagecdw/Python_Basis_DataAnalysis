@@ -26,4 +26,11 @@ print("Output #98: {} {}".format(var1, var2))
 var1, var2 = var2, var1
 print("Output #99: {} {}".format(var1, var2))
 
-
+#元组转换成列表（列表转换成元组）
+#将元组专程列表，列表转成元组
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_tuple = ('x', 'y', 'z', "u", 't', 'w', 'v')
+print("Output #100: {}".format(tuple(my_list)))
+print("Output #101: {}".format(list(my_tuple)))
+print(type(tuple(my_list)))
+print(type(list(my_tuple)))
